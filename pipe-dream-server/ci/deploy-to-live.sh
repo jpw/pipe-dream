@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
 echo "client deploy to live script"
-cf push get-started --docker-image jpwdocker/get-started:part1
+cf push pipe-dream-server --docker-image jpwdocker/pipe-dream-server
