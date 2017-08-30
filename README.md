@@ -1,4 +1,3 @@
 # Pipe Dream
 
-Pointless app used only for testing CI integration.
-
+Pointless app used only for testing CI integration...
