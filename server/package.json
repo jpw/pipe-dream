@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/jpw/pipe-dream/issues"
   },
-  "homepage": "https://github.com/jpw/pipe-dream#readme"
+  "homepage": "https://github.com/jpw/pipe-dream#readme",
+  "dependencies": {
+    "express": "^4.15.4"
+  }
 }
