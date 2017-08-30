@@ -1,0 +1,5 @@
+---
+applications:
+- name: get-started
+  memory: 256M
+  host: get-started
