@@ -1,0 +1,22 @@
+{
+  "name": "pipe-dream",
+  "version": "1.0.0",
+  "description": "simple server app for Ci testing",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpw/pipe-dream.git"
+  },
+  "keywords": [
+    "do-not-use"
+  ],
+  "author": "jpw",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jpw/pipe-dream/issues"
+  },
+  "homepage": "https://github.com/jpw/pipe-dream#readme"
+}
