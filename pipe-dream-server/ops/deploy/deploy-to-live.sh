@@ -8,14 +8,12 @@ cf api https://api.local.pcfdev.io --skip-ssl-validation
 cf auth user pass
 cf target -o pcfdev-org -s pcfdev-space
 
-pwd
+# cd right out of app
 cd ../../../
-pwd
 
-# push it
-# 	this works:
+# Push it
+# 	- push Docker Hub app
 #cf push pd-server -o jpwdocker/pipe-dream-server
-#	lets try with a manifest
-cf push pd-server -f ./pipe-dream-server/manifest.yml
 
-# pwd = /godata/pipelines/pipe-dream-server
+#	- push using CF build pack 
+cf push pd-server -f ./pipe-dream-server/manifest.yml
