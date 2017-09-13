@@ -5,4 +5,4 @@ applications:
   instances: 1
   host: pd-server
   command: npm run start
-  path: ./
+  path: ../../
