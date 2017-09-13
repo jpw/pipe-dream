@@ -1,18 +1,20 @@
+'use strict';
+
 var shunter = require('shunter');
 
 var app = shunter({
 
-	// Configure the proxy route, this should point to
-	// where your back end application runs
+	path: {
+		themes: __dirname
+	},
 	routes: {
 		localhost: {
 			default: {
-				host: '127.0.0.1',
-				port: 5401
+				host: 'localhost',
+				port: 6401
 			}
 		}
 	}
-
 });
 
 app.start();

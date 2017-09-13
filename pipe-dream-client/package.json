@@ -21,5 +21,8 @@
   "homepage": "https://github.com/jpw/pipe-dream#readme",
   "dependencies": {
     "shunter": "^4.10.2"
+  },
+  "scripts": {
+    "start": "node index -p 6400 -c 1 -l debug"
   }
 }

@@ -1,5 +1,6 @@
 const express = require('express')
 const app = express()
+const port = 6401;
 
 const payload = {
 	layout: {
@@ -13,10 +14,10 @@ const payload = {
 };
 
 app.get('/', function (req, res) {
-	res.setHeader('Content-Type', 'application/json');
+	res.setHeader('Content-Type', 'application/x-shunter+json');
 	res.send(JSON.stringify(payload))
 })
 
-app.listen(8080, function () {
-	console.log('Example app listening on port 3000!')
+app.listen(port, function () {
+	console.log('Example app listening on ' + port)
 })
