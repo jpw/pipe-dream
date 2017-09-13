@@ -9,7 +9,7 @@ cf auth user pass
 cf target -o pcfdev-org -s pcfdev-space
 
 pwd
-cd ../../
+cd ../../../
 pwd
 
 # push it
