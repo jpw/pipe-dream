@@ -7,9 +7,9 @@ const payload = {
 		namespace: 'ns'
 	},
 	context: {
+		title: 'data-driven title',
 		main: 'one day kittens will rule us all'
 	}
-
 };
 
 app.get('/', function (req, res) {
