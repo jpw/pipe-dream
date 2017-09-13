@@ -9,4 +9,7 @@ cf auth user pass
 cf target -o pcfdev-org -s pcfdev-space
 
 # push it
-cf push pd-server -o jpwdocker/pipe-dream-server
+# 	this works:
+#cf push pd-server -o jpwdocker/pipe-dream-server
+#	lets try with a manifest
+cf push pd-server -f ./pipe-dream-server/manifest.yml
