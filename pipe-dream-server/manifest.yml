@@ -6,3 +6,4 @@ applications:
   host: pd-server
   command: npm run start
   path: ./
+  buildpack: nodejs_buildpack
