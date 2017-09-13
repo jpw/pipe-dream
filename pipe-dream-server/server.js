@@ -16,7 +16,7 @@ const payload = {
 app.disable('etag');
 
 app.get('/', function (req, res) {
-	res.setHeader('Content-Type', 'application/x-shunter+json');
+//	res.setHeader('Content-Type', 'application/x-shunter+json');
 	res.send(JSON.stringify(payload))
 })
 
