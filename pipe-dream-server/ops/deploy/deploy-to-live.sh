@@ -1,12 +1,16 @@
 #!/usr/bin/env bash
 
-echo "client deploy to live script"
+echo "pipe-dream-server deploy to live script"
 cf --version
 
 # log in etc. to cf
 cf api https://api.local.pcfdev.io --skip-ssl-validation
 cf auth user pass
 cf target -o pcfdev-org -s pcfdev-space
+
+pwd
+cd ../../
+pwd
 
 # push it
 # 	this works:
