@@ -13,7 +13,7 @@ const payload = {
 	}
 };
 
-app.disable('etag');
+//app.disable('etag');
 
 app.get('/', function (req, res) {
 //	res.setHeader('Content-Type', 'application/x-shunter+json');
