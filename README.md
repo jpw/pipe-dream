@@ -1,3 +1,3 @@
 # Pipe Dream
 
-A Pointless app used only for testing CI integration.
+An couple of apps, of no public interest, that I use to hack around with GoCD + pcf-dev + Docker integration.

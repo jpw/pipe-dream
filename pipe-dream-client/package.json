@@ -23,6 +23,7 @@
     "shunter": "^4.10.2"
   },
   "scripts": {
-    "start": "node index -p 6400 -c 1 -l debug"
+    "start": "node index -p 5400 -c 1 -l debug",
+    "start:cf": "node index -p 5400 -c 1 -l debug"
   }
 }
