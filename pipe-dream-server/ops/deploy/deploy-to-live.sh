@@ -8,7 +8,7 @@ cf api https://api.local.pcfdev.io --skip-ssl-validation
 cf auth user pass
 cf target -o pcfdev-org -s pcfdev-space
 
-# cd out of ops/deploy/
+# cd out of ops/deploy
 cd ../../
 
 # Push it
