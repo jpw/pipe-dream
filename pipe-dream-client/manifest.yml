@@ -2,7 +2,7 @@
 applications:
 - name: pd-client
   memory: 256M
-  instances: 1
+  instances: 3
   host: pd-client
   command: npm run start:cf
   path: ./
