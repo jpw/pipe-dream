@@ -1,9 +1,11 @@
 ---
 applications:
-- name: pd-server
+- name: pd-client
   memory: 256M
   instances: 1
-  host: pd-server
+  host: pd-client
   command: npm run start
   path: ./
   buildpack: nodejs_buildpack
+  env:
+    BACKEND_APP: http://pd-server.local.pcfdev.io/:80
