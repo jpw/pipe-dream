@@ -7,4 +7,6 @@ applications:
   command: npm run start
   path: ./
   buildpack: nodejs_buildpack
+  env:
+    PORT: 3000
   health-check-type: process
