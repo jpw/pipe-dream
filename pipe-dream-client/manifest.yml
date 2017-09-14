@@ -4,7 +4,7 @@ applications:
   memory: 256M
   instances: 1
   host: pd-client
-  command: npm run start
+  command: npm run start:cf
   path: ./
   buildpack: nodejs_buildpack
   env:

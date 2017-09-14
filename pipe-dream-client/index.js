@@ -1,11 +1,14 @@
 'use strict';
+const shunter = require('shunter');
+const port = process.env.PORT || 5400;
 
-var shunter = require('shunter');
-
-var app = shunter({
+const app = shunter({
 
 	path: {
 		themes: __dirname
+	},
+	port: {
+		port
 	},
 	routes: {
 		localhost: {
@@ -18,4 +21,3 @@ var app = shunter({
 });
 
 app.start();
-
