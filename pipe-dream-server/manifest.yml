@@ -7,3 +7,5 @@ applications:
   command: npm run start
   path: ./
   buildpack: nodejs_buildpack
+  env:
+    APP_DIR: pipe-dream-server
