@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "basic shunter app to test pipe-dream CI/CD testing",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "engines": {
+    "node": "7.8.0"
   },
   "repository": {
     "type": "git",
@@ -26,6 +26,7 @@
     "start": "node index -p 5400 -c 1 -l debug",
     "start:cf": "node index --route-override=$BACKEND_APP",
     "prestart:cf": "./node_modules/.bin/shunter-build",
-    "build": "./node_modules/.bin/shunter-build"
+    "build": "./node_modules/.bin/shunter-build",
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
