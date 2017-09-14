@@ -17,4 +17,3 @@ cd ../../
 
 #	- push using CF build pack 
 cf push pd-server -f ./manifest.yml
-
