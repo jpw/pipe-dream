@@ -26,6 +26,6 @@
     "start": "node index -p 5400 -c 1 -l debug",
     "start:cf": "node index -p $PORT --route-override=$BACKEND_APP",
     "prestart:cf": "./node_modules/.bin/shunter-build",
-    "build": "./node_modules/.bin/shunter-build",
+    "build": "./node_modules/.bin/shunter-build"
   }
 }
