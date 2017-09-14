@@ -1,0 +1,28 @@
+{
+  "name": "pipe-dream-client",
+  "version": "1.0.0",
+  "description": "basic shunter app to test pipe-dream CI/CD testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpw/pipe-dream.git"
+  },
+  "keywords": [
+    "do-not-use"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jpw/pipe-dream/issues"
+  },
+  "homepage": "https://github.com/jpw/pipe-dream#readme",
+  "dependencies": {
+    "shunter": "^4.10.2"
+  },
+  "scripts": {
+    "start": "node index -p 6400 -c 1 -l debug"
+  }
+}

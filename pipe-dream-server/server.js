@@ -10,7 +10,8 @@ const payload = {
 	context: {
 		title: 'data-driven title',
 		main: 'one day kittens will rule us all'
-	}
+	},
+	port: port
 };
 
 app.disable('etag');
