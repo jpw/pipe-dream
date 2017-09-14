@@ -7,5 +7,7 @@ applications:
   command: npm run start:cf
   path: ./
   buildpack: nodejs_buildpack
+#this is reqd for shunter atm
+  health-check-type: process
   env:
     BACKEND_APP: http://pd-server.local.pcfdev.io/:80
