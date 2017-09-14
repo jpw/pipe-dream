@@ -10,8 +10,8 @@ var app = shunter({
 	routes: {
 		localhost: {
 			default: {
-				host: 'localhost',
-				port: 5401
+				host: 'localhost', 	// prod, http://pd-server.local.pcfdev.io/
+				port: 5401			// prod, 80
 			}
 		}
 	}
