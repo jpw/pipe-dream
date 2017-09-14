@@ -2,7 +2,7 @@
 applications:
 - name: pd-server
   memory: 256M
-  instances: 1
+  instances: 3
   host: pd-server
   command: npm run start
   path: ./
