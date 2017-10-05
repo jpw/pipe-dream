@@ -2,7 +2,6 @@ const express = require('express')
 const app = express()
 const port = process.env.PORT || 5401;
 
-
 const payload = {
 	layout: {
 		template: 'root',
