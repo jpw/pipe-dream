@@ -4,7 +4,7 @@
   "description": "basic shunter app to test pipe-dream CI/CD testing",
   "main": "index.js",
   "engines": {
-    "node": "7.8.0"
+    "node": "8.12.0"
   },
   "repository": {
     "type": "git",
@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/jpw/pipe-dream#readme",
   "dependencies": {
-    "shunter": "^4.10.2"
+    "shunter": "^4.12"
   },
   "scripts": {
     "start": "node index -p 5400 -c 1 -l debug",
