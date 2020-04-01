@@ -6,6 +6,9 @@
 		body {
 			background-color: #ccc;
 		}
+		p {
+			font-size: 1.1rem;
+		}
 		.test-state-default {
 			padding-left: 1em;
 			text-decoration-line: line-through;
@@ -20,6 +23,10 @@
 
 		<p>Has the CSS file loaded and executed ok?
 			<span class="test-state-default u-text-decoration-line-none">yes</span>.
+		</p>
+
+		<p>Has the single file CSS require worked OK?
+			<span class="test-state-default test-single-file-require">yes</span>.
 		</p>
 
 		<p>Has the JS file loaded and executed ok?
