@@ -2,6 +2,10 @@
 
 A couple of apps, of no public interest, that I use to hack around with GoCD + pcf-dev + Docker integration.
 
+----
+
+**If you want to play with the client and server locally, then read on:**
+
 ## To Install
 
 `cd` into the client and server sub-directories, runing `npm ci` in each.
