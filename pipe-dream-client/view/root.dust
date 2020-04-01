@@ -3,14 +3,23 @@
 <head>
     <title>{context.title}</title>
 	<style>
-		body {background-color: #999}
+		body {background-color: #ccc}
+		html.js .js-test {
+			color: green;
+		}
+		.js-test {
+			color: red;
+		}
 	</style>
 </head>
 <body>
-    <h1>{context.title}</h1>
-    <p>data: {context.main}</p>
+	<main>
+		<h1>{context.title}</h1>
+		<p class="js-test">If this is green, JavaScript has executed.</p>
+		<p>data: {context.main}</p>
 
-	<pre>{@contextDump key="full" to="console"/}</pre> 
+		<h2>render context</h2>
+		<pre>{@contextDump key="full"/}</pre> 
+	</main>
 </body>
 </html>
-

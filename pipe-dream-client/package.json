@@ -27,6 +27,7 @@
     "start:cf": "node index --route-override=$BACKEND_APP",
     "prestart:cf": "./node_modules/.bin/shunter-build",
     "build": "./node_modules/.bin/shunter-build",
+    "build-and-start": "npm run build && npm run start",
     "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
