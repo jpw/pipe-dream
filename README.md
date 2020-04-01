@@ -12,4 +12,4 @@ To stop:
 
 ` pm2 del ecosystem.config.js`
 
-`pm2` will watch the client app for changes.
+`pm2` will watch the *client* app for changes.

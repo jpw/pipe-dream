@@ -4,7 +4,7 @@ module.exports = {
     cwd: './pipe-dream-server/',
     script: 'npm',
     args: 'start',
-    
+
     // Options reference: https://pm2.keymetrics.io/docs/usage/application-declaration/
     instances: 1,
     autorestart: true,
@@ -23,8 +23,7 @@ module.exports = {
     cwd: './pipe-dream-client/',
     script: 'npm',
     args: 'start',
-    
-    // Options reference: https://pm2.keymetrics.io/docs/usage/application-declaration/
+
     instances: 1,
     autorestart: true,
     watch: true,

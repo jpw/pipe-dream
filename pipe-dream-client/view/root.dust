@@ -19,7 +19,7 @@
 		<p>data: {context.main}</p>
 
 		<h2>render context</h2>
-		<pre>{@contextDump key="full"/}</pre> 
+		<pre>{@contextDump key="full"/}</pre>
 	</main>
 </body>
 </html>
