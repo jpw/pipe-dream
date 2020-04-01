@@ -1,21 +1,26 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <title>{context.title}</title>
 	<style>
-		body {background-color: #ccc}
-		html.js .js-test {
-			color: green;
+		body {
+			background-color: #ccc;
 		}
-		.js-test {
+		.test-state {
 			color: red;
 		}
+		html.js .test-js {
+			color: green;
+		}
 	</style>
+	<link rel="stylesheet" href="{@assetPath src="main.css"/}"/>
+	<script src="{@assetPath src="main.js"/}"></script>
 </head>
 <body>
 	<main>
 		<h1>{context.title}</h1>
-		<p class="js-test">If this is green, JavaScript has executed.</p>
+		<p class="test-state test-css">If this is green, CSS has executed.</p>
+		<p class="test-state test-js">If this is green, JavaScript has executed.</p>
 		<p>data: {context.main}</p>
 
 		<h2>render context</h2>
