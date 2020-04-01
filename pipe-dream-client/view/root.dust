@@ -23,14 +23,13 @@
 
 		<h2>CSS tests</h2>
 
-		<p>Has the CSS file loaded and executed ok?
-			<span class="test-state-default u-text-decoration-line-none">yes</span>.
-		</p>
-
 		<p>Has the single file CSS require worked OK?
 			<span class="test-state-default test-single-file-require">yes</span>.
 		</p>
 
+		<p>Has the CSS file in a subdir loaded and executed ok?
+			<span class="test-state-default u-text-decoration-line-none">yes</span>.
+		</p>
 
 		<h2>JS tests</h2>
 
