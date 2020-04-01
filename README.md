@@ -13,3 +13,8 @@ To stop:
 ` pm2 del ecosystem.config.js`
 
 `pm2` will watch the *client* app for changes.
+
+### To view
+
+- [Client](http://localhost:5400/)
+- [Server](http://localhost:5401/)
