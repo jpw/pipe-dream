@@ -21,6 +21,8 @@
 	<main>
 		<h1>{context.title}</h1>
 
+		<h2>CSS tests</h2>
+
 		<p>Has the CSS file loaded and executed ok?
 			<span class="test-state-default u-text-decoration-line-none">yes</span>.
 		</p>
@@ -29,8 +31,15 @@
 			<span class="test-state-default test-single-file-require">yes</span>.
 		</p>
 
+
+		<h2>JS tests</h2>
+
 		<p>Has the JS file loaded and executed ok?
-			<span id="test-js" class="test-state-default">yes</span>.
+			<span id="test-js-basic" class="test-state-default">yes</span>.
+		</p>
+
+		<p>Has the JS file in a subdir loaded and executed ok?
+			<span id="test-js-subdir" class="test-state-default">yes</span>.
 		</p>
 
 		<h2>render data</h2>
