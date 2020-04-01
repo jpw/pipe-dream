@@ -1,1 +1,8 @@
-document.documentElement.classList.add('js');
+window.addEventListener('DOMContentLoaded', (event) => {
+	contentLoadedHandler();
+});
+
+const contentLoadedHandler = () => {
+	document.documentElement.classList.add('js');
+	document.getElementById("test-js").classList.add('u-text-decoration-line-none');
+}

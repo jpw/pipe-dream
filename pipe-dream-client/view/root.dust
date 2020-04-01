@@ -6,11 +6,9 @@
 		body {
 			background-color: #ccc;
 		}
-		.test-state {
-			color: red;
-		}
-		html.js .test-js {
-			color: green;
+		.test-state-default {
+			padding-left: 1em;
+			text-decoration-line: line-through;
 		}
 	</style>
 	<link rel="stylesheet" href="{@assetPath src="main.css"/}"/>
@@ -19,8 +17,16 @@
 <body>
 	<main>
 		<h1>{context.title}</h1>
-		<p class="test-state test-css">If this is green, CSS has executed.</p>
-		<p class="test-state test-js">If this is green, JavaScript has executed.</p>
+
+		<p>Has the CSS file loaded and executed ok?
+			<span class="test-state-default u-text-decoration-line-none">yes</span>.
+		</p>
+
+		<p>Has the JS file loaded and executed ok?
+			<span id="test-js" class="test-state-default">yes</span>.
+		</p>
+
+		<h2>render data</h2>
 		<p>data: {context.main}</p>
 
 		<h2>render context</h2>
